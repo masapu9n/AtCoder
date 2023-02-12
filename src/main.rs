@@ -1,3 +1,9 @@
+use proconio::input;
+
 fn main() {
-    println!("Hello CodeSandbox!");
+    input!{
+        n: u8,
+    }
+    
+    println!("{}", n as char);
 }
